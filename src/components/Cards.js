@@ -15,7 +15,7 @@ function Cards() {
             <CardItem
               src={i1}
               text='Wreckbot scans your entire infrastructure for vulnerabilities, misconfigurations, malware, and other security issues in minutes.'
-              label='Step 1: Find all issues'
+              label='Step 1: Find all the issues'
               path='/services'
             />
             <CardItem
