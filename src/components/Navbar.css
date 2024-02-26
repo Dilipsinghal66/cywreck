@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: #261A33;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -36,7 +36,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(7, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -46,7 +46,8 @@
 }
 
 .nav-item {
-  height: 80px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-links {
@@ -59,7 +60,9 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  background-color: #801AE5;
+  border-radius: 10px;
+  border: 1px solid #801AE5;
   transition: all 0.2s ease-out;
 }
 

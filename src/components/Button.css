@@ -16,6 +16,16 @@
   border: 1px solid var(--primary);
 }
 
+.btn--curve{
+  padding: 12px 20px;
+  border-radius: 12px;
+  background-color: #801AE5;
+  color: white; 
+  border: none; 
+  cursor: pointer; 
+  font-size: 16px; 
+}
+
 .btn--outline {
   background-color: transparent;
   color: #fff;
@@ -40,4 +50,13 @@
   background: #fff;
   color: #242424;
   transition: 250ms;
+}
+
+.btn--product{
+  margin-top: 15px;
+  background-color: #4D3366;
+  padding: 9px 163px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 14px;
 }

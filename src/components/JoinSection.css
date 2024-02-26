@@ -1,0 +1,31 @@
+.join-section-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .join-section-container {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    color: #fff;
+  }
+  
+  .join-section-container >h2 {
+    width: 550px;
+    font-size: 36px;
+  }
+
+  .join-section-container >p {
+    margin-top: 8px;
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .button-margin-remover{
+    margin-top: 32px;
+    margin-left: -6px;
+    margin-bottom: 80px;
+  }

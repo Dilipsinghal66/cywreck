@@ -2,30 +2,18 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import wb from "../images/Wreckboat.png";
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+    <div className="hero-section-main">
+      <div className='hero-container' style={{ backgroundImage: `url(${wb})` }}>
+      <h1>Wreckbot AI Cybersecurity Suite</h1>
+      <p>A predictive AI suite capable of solving every cybersecurity issue. Compatible with APIs, networks, cloud, and code reviews.</p>
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          GET STARTED
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
+      <button class="btn btn--curve">Join Waitlist</button>
       </div>
+    </div>
     </div>
   );
 }

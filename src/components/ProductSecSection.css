@@ -1,0 +1,54 @@
+.product-container {
+    display: flex;
+   justify-content: center;
+  }
+  
+  .box {
+    width: 460px;
+   
+    background-color:#362447;
+    margin-bottom: 20px; /* Adjust margin between boxes */
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 16px;
+    padding: 25px;
+  }
+
+  .box >p{
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .box >h1{
+    color: #fff;
+    font-size: 36px;
+  }
+
+  .sup-month{
+    font-size: 16px;
+  }
+
+  .tick-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tick-image {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .tick-text {
+    margin-left: 5px;
+    color: white;
+  }
+
+  .align-section-top-15{
+    margin-top: 15px;
+  }
+
+  .align-section-top-5{
+    margin-top: 5px;
+  }
+  
+  

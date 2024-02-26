@@ -1,0 +1,26 @@
+.text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .text-wrapper {
+    margin-top: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 960px;
+  }
+  
+  .heading-large {
+    font-size: 34px;
+    color: #fff;
+  }
+  
+  .paragraph-small {
+    margin-top: 10px;
+    color: #AD94C7;
+    font-size: 16px;
+  }
+  
